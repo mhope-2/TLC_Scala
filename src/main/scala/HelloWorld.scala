@@ -1,7 +1,6 @@
-import java.time.{LocalDate}
 import java.text.SimpleDateFormat
 import java.util.Locale
-import java.text.DateFormat
+
 
 object HelloWorld {
 
@@ -10,16 +9,13 @@ object HelloWorld {
 
     println(toFahrenheit(23.5))
 
-    //    println(LocalDate.of(2020, 1, 12))
-
     println(formatDate("21/09/1926"))
   }
 
   // Q1. function to convert celsius to fahrenheit
 
-  def toFahrenheit(temperatureInDegreeCelsius : Double): Double = {
-    return (temperatureInDegreeCelsius * 9/5 ) + 32
-  }
+  def toFahrenheit(temperatureInDegreeCelsius : Double): Double = return (temperatureInDegreeCelsius * 9/5 ) + 32
+
 
   // Q2.
   def formatDate(sourceDate : String): String = {
