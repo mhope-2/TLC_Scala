@@ -1,0 +1,11 @@
+[debug] > Exec(val order: String = "A glass of beer", None, None)
+[error] Expected ID character
+[error] Not a valid command: val (similar: eval, alias, apply)
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Not a valid key: val
+[error] val order: String = "A glass of beer"
+[error]    ^
+[debug] > Exec(idea-shell, None, None)
