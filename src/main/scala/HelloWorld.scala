@@ -1,9 +1,6 @@
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
-
-
-
 object HelloWorld {
 
   def main(args: Array[String]): Unit ={
