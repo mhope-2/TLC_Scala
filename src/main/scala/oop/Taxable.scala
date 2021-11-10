@@ -1,5 +1,5 @@
 package oop
 
-trait Taxable {
+trait Taxable  {
 
 }
