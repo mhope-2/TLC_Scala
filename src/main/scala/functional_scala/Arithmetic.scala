@@ -6,7 +6,7 @@ object Arithmetic {
       println(arithmeticOperation("power"))
   }
 
-  def arithmeticOperation(operation: String) ={
+  def arithmeticOperation(operation: String): String ={
     val firstInt: Int = 4
     val secondInt: Int = 5
 
