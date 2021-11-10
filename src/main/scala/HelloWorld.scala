@@ -16,15 +16,11 @@ object HelloWorld {
 
   // Q1. function to convert celsius to fahrenheit
 
-  def toFahrenheit(temperatureInDegreeCelsius : Double): Double = return (temperatureInDegreeCelsius * 9/5 ) + 32
+  def toFahrenheit(temperatureInDegreeCelsius : Double): Double =  (temperatureInDegreeCelsius * 9/5 ) + 32
 
 
   // Q2.
   def formatDate(): String = {
-//    val originalFormat = new SimpleDateFormat("dd/mm/yyyy", Locale.ENGLISH)
-//    val targetFormat = new DateTimeFormatter("dd MMMM yyyy")
-//    val date = originalFormat.parse(sourceDate)
-//    targetFormat.format(date)
 
     import java.time.LocalDate
     val date = LocalDate.now()
