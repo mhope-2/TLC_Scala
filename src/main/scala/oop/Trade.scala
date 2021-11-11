@@ -12,7 +12,7 @@ abstract class Trade (var id : Int, var symbol: String, var quantity : Int, var 
 
   def value = quantity * price
 
-  def isExecutable()
+  def isExecutable() : Boolean
 
   override def toString: String = "Trade{" + "id=" + id + ", symbol='" + symbol + '\'' +
     ", quantity=" + quantity + ", price=" + price + '}'

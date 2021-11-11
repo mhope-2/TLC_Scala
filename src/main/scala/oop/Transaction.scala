@@ -8,5 +8,5 @@ class Transaction ( id : Int, symbol: String, quantity : Int, price : Double)
 
   override def flatFee(): Unit = 10.00
 
-  def amount() : Double = (0.01 * this.tax_rate()) * (this.value + flatFee())
+//  def amount() : Double = (0.01 * this.tax_rate()) * (this.value + flatFee())
 }

@@ -11,7 +11,7 @@ object SingObj extends App{
 //    println(trade.value)
 
   val transaction = new Transaction(2, "SYMB", 10, 100.00)
-  println(transaction.amount())
+//  println(transaction.amount())
 
 
 
