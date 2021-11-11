@@ -31,6 +31,11 @@ object Filelist {
    // Q4 b
    val tenLargestFiles = fileList.map(item => (item.getAbsoluteFile, item.length())).reverse
    println(tenLargestFiles.mkString("Array(", ", ", ")"))
+
+   // Q5
+   val tenLargestFilesMap = fileList.map(item => Map(item.getAbsoluteFile -> item.length())).reverse
+   println(tenLargestFilesMap.mkString("Array(", ", ", ")"))
+
   }
 
 }
